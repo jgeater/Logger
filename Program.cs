@@ -5,6 +5,7 @@ using System.Text;
 using System.Net;
 using System.IO;
 using System.Net.NetworkInformation;
+using System.Diagnostics;
 
 namespace Logger
 {
@@ -35,6 +36,22 @@ namespace Logger
                 Log("New run------------------------------------------------------------------------------", w);
                 Log(note, w);
                 
+            }
+
+
+            //get the FW config using netsh command
+            Process p = new Process();
+            p.StartInfo.FileName = "netsh.exe";
+            p.StartInfo.Arguments = "advfirewall show currentprofile";
+            p.StartInfo.UseShellExecute = false;
+            p.StartInfo.RedirectStandardOutput = true;
+            p.Start();
+
+            string output = p.StandardOutput.ReadToEnd();
+            // parse output and look for results
+            using (StreamWriter w = File.AppendText(@"C:\temp\logger.log"))
+            {
+                Log(output, w);
             }
 
             //get the IP of the local wired NIC
