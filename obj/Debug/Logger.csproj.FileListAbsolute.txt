@@ -1,0 +1,5 @@
+C:\Users\jgeat\OneDrive\My Documents\Visual Studio 2017\Projects\Logger\Logger\bin\Debug\Logger.exe
+C:\Users\jgeat\OneDrive\My Documents\Visual Studio 2017\Projects\Logger\Logger\bin\Debug\Logger.pdb
+C:\Users\jgeat\OneDrive\My Documents\Visual Studio 2017\Projects\Logger\Logger\obj\Debug\Logger.csprojResolveAssemblyReference.cache
+C:\Users\jgeat\OneDrive\My Documents\Visual Studio 2017\Projects\Logger\Logger\obj\Debug\Logger.exe
+C:\Users\jgeat\OneDrive\My Documents\Visual Studio 2017\Projects\Logger\Logger\obj\Debug\Logger.pdb

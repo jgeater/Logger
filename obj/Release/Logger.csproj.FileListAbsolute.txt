@@ -1,0 +1,4 @@
+C:\Users\jgeat\OneDrive\My Documents\Visual Studio 2017\Projects\Logger\Logger\bin\Release\Logger.exe
+C:\Users\jgeat\OneDrive\My Documents\Visual Studio 2017\Projects\Logger\Logger\bin\Release\Logger.pdb
+C:\Users\jgeat\OneDrive\My Documents\Visual Studio 2017\Projects\Logger\Logger\obj\Release\Logger.exe
+C:\Users\jgeat\OneDrive\My Documents\Visual Studio 2017\Projects\Logger\Logger\obj\Release\Logger.pdb
